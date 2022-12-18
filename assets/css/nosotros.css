@@ -495,7 +495,10 @@ body.nav-active { overflow: hidden; }
 }
 
 .mission-content {
+  display: flex;
+  flex-direction: column;
   width: 60%;
+  justify-content: center;
 }
 
 .culture-subtitle{
@@ -628,7 +631,30 @@ body.nav-active { overflow: hidden; }
 
   .navbar-list { margin-block-end: auto; }
 
+
+  
+  /**
+   *ORGANIZATIONAL CULTURE
+   */
+
+.culture {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 30px;
 }
+
+.mission-content {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: center;
+}
+
+}
+
 
 
 
