@@ -493,14 +493,23 @@ body.nav-active { overflow: hidden; }
   gap: 30px;
 }
 
+.mission-img{
+  display: flex;
+  justify-content: center;
+}
+
 .mission-content {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 
 .culture-subtitle{
   color: var(--violet-blue-crayola);
+}
+
+.culture-text {
+  text-align: justify;
 }
 
 
