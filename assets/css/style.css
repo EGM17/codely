@@ -399,7 +399,7 @@ body.nav-active { overflow: hidden; }
 .hero-title { color: var(--white); }
 
 .hero-text {
-  font-size: var(--fs-6);
+  font-size: var(--fs-5);
   color: var(--white);
   margin-block: 24px 36px;
 }
