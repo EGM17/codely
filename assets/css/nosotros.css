@@ -488,10 +488,11 @@ body.nav-active { overflow: hidden; }
 .culture {
   display: flex;
   flex-direction: row;
+  margin-top: 50px;
 }
 
 .mission-content {
-  width: 70%;
+  width: 60%;
   align-items: flex-start;
 }
 
