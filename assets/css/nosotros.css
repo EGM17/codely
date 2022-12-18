@@ -489,11 +489,11 @@ body.nav-active { overflow: hidden; }
   display: flex;
   flex-direction: row;
   margin-top: 50px;
+  gap: 30px;
 }
 
 .mission-content {
   width: 60%;
-  align-items: flex-start;
 }
 
 
