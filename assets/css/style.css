@@ -300,6 +300,10 @@ body.nav-active { overflow: hidden; }
 .header .logo-light,
 .header.active .logo-dark { display: block; }
 
+#logo-movil-light {
+  margin-left: -8px;
+}
+
 .nav-open-btn {
   font-size: 3.5rem;
   color: var(--white);
