@@ -490,6 +490,12 @@ body.nav-active { overflow: hidden; }
   flex-direction: row;
 }
 
+.mission-content {
+  width: 70%;
+  align-items: flex-start;
+}
+
+
 
 
 
