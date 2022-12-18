@@ -479,6 +479,26 @@ body.nav-active { overflow: hidden; }
 .hero .slider-btn.next { right: 20px; }
 
 
+
+
+/*-----------------------------------*\
+  #ORGANIZATIONAL CULTURE
+\*-----------------------------------*/
+
+.culture {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
 /*-----------------------------------*\
   #CTA
 \*-----------------------------------*/
