@@ -487,13 +487,18 @@ body.nav-active { overflow: hidden; }
 
 .culture {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   margin-top: 50px;
+  margin-bottom: 50px;
   gap: 30px;
 }
 
 .mission-content {
   width: 60%;
+}
+
+.culture-subtitle{
+  color: var(--violet-blue-crayola);
 }
 
 
