@@ -496,6 +496,8 @@ body.nav-active { overflow: hidden; }
 
 .mission-img{
   display: flex;
+  width: 380px;
+  height: 200px;
   justify-content: center;
   overflow: hidden;
   border-radius: 10px;
