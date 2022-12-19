@@ -718,7 +718,7 @@ body.nav-active { overflow: hidden; }
   .culture {
     flex-direction: row-reverse;
     justify-content: center;
-    gap: 60px;
+    gap: 150px;
 }
 
   .mission-content {
