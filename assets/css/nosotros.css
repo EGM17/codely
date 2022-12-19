@@ -486,7 +486,7 @@ body.nav-active { overflow: hidden; }
   #ORGANIZATIONAL CULTURE
 \*-----------------------------------*/
 
-.culture {
+.mission {
   display: flex;
   flex-direction: column-reverse;
   margin-top: 50px;
@@ -716,7 +716,7 @@ body.nav-active { overflow: hidden; }
    *ORGANIZATIONAL CULTURE
    */
 
-  .culture {
+  .mission {
     flex-direction: row-reverse;
     justify-content: center;
     gap: 150px;
