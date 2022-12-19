@@ -516,6 +516,15 @@ body.nav-active { overflow: hidden; }
   text-align: justify;
 }
 
+.vision {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 30px;
+  overflow: hidden;
+}
+
 
 
 
