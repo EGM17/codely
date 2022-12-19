@@ -508,12 +508,11 @@ body.nav-active { overflow: hidden; }
 }
 
 .culture-subtitle{
-  color: var(--violet-blue-crayola);
+  color: #0EAD69 ;
 }
 
 .culture-text {
   text-align: justify;
-  letter-spacing: -0.5px;
 }
 
 
