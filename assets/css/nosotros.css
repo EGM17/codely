@@ -498,6 +498,7 @@ body.nav-active { overflow: hidden; }
   display: flex;
   justify-content: center;
   overflow: hidden;
+  border-radius: 10px;
 }
 
 .mission-content {
@@ -641,28 +642,6 @@ body.nav-active { overflow: hidden; }
 
   .navbar-list { margin-block-end: auto; }
 
-
-  
-  /**
-   *ORGANIZATIONAL CULTURE
-   */
-
-.culture {
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  gap: 30px;
-}
-
-.mission-content {
-  display: flex;
-  flex-direction: column;
-  width: 60%;
-  justify-content: center;
-}
-
 }
 
 
@@ -731,6 +710,26 @@ body.nav-active { overflow: hidden; }
   }
 
   .hero-text { --fs-5: 2rem; }
+
+    /**
+   *ORGANIZATIONAL CULTURE
+   */
+  .culture {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+
+  .mission-content {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-items: flex-start;
+}
 
 }
 
