@@ -486,7 +486,7 @@ body.nav-active { overflow: hidden; }
   #ORGANIZATIONAL CULTURE
 \*-----------------------------------*/
 
-.mission .vision {
+.mission {
   display: flex;
   flex-direction: column-reverse;
   margin-top: 50px;
@@ -495,14 +495,14 @@ body.nav-active { overflow: hidden; }
   overflow: hidden;
 }
 
-.mission-img .vision-img{
+.mission-img {
   display: flex;
   justify-content: center;
   overflow: hidden;
   border-radius: 10px;
 }
 
-.mission-content .vision-content {
+.mission-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -716,13 +716,13 @@ body.nav-active { overflow: hidden; }
    *ORGANIZATIONAL CULTURE
    */
 
-  .mission .vision{
+  .mission {
     flex-direction: row-reverse;
     justify-content: center;
     gap: 150px;
 }
 
-  .mission-content .vision-content {
+  .mission-content {
     display: flex;
     flex-direction: column;
     width: 60%;
