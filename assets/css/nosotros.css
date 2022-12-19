@@ -488,10 +488,10 @@ body.nav-active { overflow: hidden; }
 
 .culture {
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   margin-top: 50px;
   margin-bottom: 50px;
-  gap: 60px;
+  gap: 30px;
 }
 
 .mission-img{
@@ -710,16 +710,15 @@ body.nav-active { overflow: hidden; }
 
   .hero-text { --fs-5: 2rem; }
 
+
     /**
    *ORGANIZATIONAL CULTURE
    */
+
   .culture {
-    display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    gap: 30px;
+    gap: 60px;
 }
 
   .mission-content {
