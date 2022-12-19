@@ -392,6 +392,8 @@ body.nav-active { overflow: hidden; }
 .hero {
   padding-block-start: calc(var(--section-padding) + 70px);
   text-align: center;
+  background: rgb(14,173,105);
+  background: radial-gradient(circle, rgba(14,173,105,1) 0%, rgba(59,46,116,1) 100%);
 }
 
 .hero .container {
