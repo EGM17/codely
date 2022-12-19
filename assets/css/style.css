@@ -225,8 +225,9 @@ body.nav-active { overflow: hidden; }
 
 .btn-primary,
 .btn-outline:is(:hover, :focus-visible) {
-  background-color: var(--white);
-  color: var(--charcoal);
+  background: rgb(14,173,105);
+  background: radial-gradient(circle, rgba(14,173,105,1) 0%, rgba(59,46,116,1) 100%);
+  color: var(--white);
 }
 
 .img-holder {
