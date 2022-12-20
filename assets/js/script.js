@@ -169,6 +169,6 @@ window.addEventListener("load", reveal);
 
 
 /**SPLIT SLIDER */
-  document.addEventListener( 'DOMContentLoaded', function () {
-    new Splide( '#image-carousel' ).mount();
-  } );
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
