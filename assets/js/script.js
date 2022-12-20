@@ -171,7 +171,7 @@ window.addEventListener("load", reveal);
 /**SPLIT SLIDER */
 const swiper = new Swiper('.swiper', {
   // Optional parameters
-  direction: 'vertical',
+  direction: 'horizontal',
   loop: true,
 
   // If we need pagination
