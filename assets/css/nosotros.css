@@ -558,7 +558,6 @@ body.nav-active { overflow: hidden; }
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 
@@ -793,7 +792,7 @@ body.nav-active { overflow: hidden; }
     gap: 150px;
 }
 
-  .mission-content {
+  .values-content {
     display: flex;
     flex-direction: column;
     width: 60%;
