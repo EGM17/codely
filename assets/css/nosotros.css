@@ -762,7 +762,7 @@ body.nav-active { overflow: hidden; }
     flex-direction: column;
     width: 60%;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-start;
 }
 
 }
