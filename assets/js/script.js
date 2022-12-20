@@ -166,3 +166,10 @@ for (let i = 0, len = revealDelayElements.length; i < len; i++) {
 
 window.addEventListener("scroll", reveal);
 window.addEventListener("load", reveal);
+
+
+/**SPLIT SLIDER */
+document.addEventListener( 'DOMContentLoaded', function() {
+  var splide = new Splide( '.splide' );
+  splide.mount();
+} );
