@@ -761,7 +761,7 @@ body.nav-active { overflow: hidden; }
   .mission {
     flex-direction: row-reverse;
     justify-content: center;
-    gap: 150px;
+    gap: 0px;
 }
 
   .mission-content {
@@ -775,7 +775,7 @@ body.nav-active { overflow: hidden; }
   .vision {
     flex-direction: row;
     justify-content: center;
-    gap: 150px;
+    gap: 0px;
 }
 
   .vision-content {
@@ -789,7 +789,7 @@ body.nav-active { overflow: hidden; }
   .values {
     flex-direction: row-reverse;
     justify-content: center;
-    gap: 150px;
+    gap: 0px;
 }
 
   .values-content {
