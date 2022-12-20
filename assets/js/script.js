@@ -169,11 +169,12 @@ window.addEventListener("load", reveal);
 
 
 /**SPLIT SLIDER */
-
-import Splide from '@splidejs/splide';
-new Splide( '.splide' ).mount();
-
 document.addEventListener( 'DOMContentLoaded', function() {
   var splide = new Splide( '.splide' );
   splide.mount();
+} );
+
+new Splide( '.splide', {
+  type   : 'loop',
+  perPage: 3,
 } );
