@@ -586,6 +586,11 @@ body.nav-active { overflow: hidden; }
 }
 
 
+.splide__slide img {
+  width: 100%;
+  height: auto;
+}
+
 
 
 
