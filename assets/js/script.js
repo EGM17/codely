@@ -169,7 +169,6 @@ window.addEventListener("load", reveal);
 
 
 /**SPLIT SLIDER */
-new Splide( '.splide', {
-  type   : 'loop',
-  perPage: 3,
-} );
+  document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#image-carousel' ).mount();
+  } );
