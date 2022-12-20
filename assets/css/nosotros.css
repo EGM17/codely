@@ -486,7 +486,7 @@ body.nav-active { overflow: hidden; }
   #ORGANIZATIONAL CULTURE
 \*-----------------------------------*/
 
-.mission .values {
+.mission {
   display: flex;
   flex-direction: column-reverse;
   margin-top: 50px;
@@ -495,14 +495,14 @@ body.nav-active { overflow: hidden; }
   overflow: hidden;
 }
 
-.mission-img .values-img {
+.mission-img {
   display: flex;
   justify-content: center;
   overflow: hidden;
   border-radius: 10px;
 }
 
-.mission-content .values-content {
+.mission-content {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -538,6 +538,27 @@ body.nav-active { overflow: hidden; }
   align-items: center;
 }
 
+.values {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  gap: 30px;
+  overflow: hidden;
+}
+
+.values-img {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.values-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 
 
@@ -737,13 +758,13 @@ body.nav-active { overflow: hidden; }
    *ORGANIZATIONAL CULTURE
    */
 
-  .mission .values {
+  .mission {
     flex-direction: row-reverse;
     justify-content: center;
     gap: 150px;
 }
 
-  .mission-content .values-content {
+  .mission-content {
     display: flex;
     flex-direction: column;
     width: 60%;
@@ -758,6 +779,20 @@ body.nav-active { overflow: hidden; }
 }
 
   .vision-content {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+  .values {
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 150px;
+}
+
+  .mission-content {
     display: flex;
     flex-direction: column;
     width: 60%;
