@@ -591,7 +591,8 @@ body.nav-active { overflow: hidden; }
 \*-----------------------------------*/
 .team-slider{
   margin-bottom: 50px;
-  background-color: #373174;
+  background: rgb(55,43,112);
+  background: radial-gradient(circle, rgba(55,43,112,1) 0%, rgba(14,173,105,1) 100%);
 }
 
 .swiper {
