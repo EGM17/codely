@@ -519,7 +519,7 @@ body.nav-active { overflow: hidden; }
 .vision {
   display: flex;
   flex-direction: column-reverse;
-  margin-top: 50px;
+  margin-top: 80px;
   margin-bottom: 50px;
   gap: 30px;
   overflow: hidden;
@@ -751,18 +751,18 @@ body.nav-active { overflow: hidden; }
     align-items: flex-start;
 }
 
-.vision {
-  flex-direction: row;
-  justify-content: center;
-  gap: 150px;
+  .vision {
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
 }
 
-.vision-content {
-  display: flex;
-  flex-direction: column;
-  width: 60%;
-  justify-content: center;
-  align-items: flex-end;
+  .vision-content {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 }
