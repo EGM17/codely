@@ -589,6 +589,10 @@ body.nav-active { overflow: hidden; }
 /*-----------------------------------*\
   #TEAM SLIDER
 \*-----------------------------------*/
+.team-slider{
+  margin-bottom: 50px;
+  background-color: #373174;
+}
 
 .swiper {
   width: 300px;
