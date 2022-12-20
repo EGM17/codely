@@ -509,11 +509,13 @@ body.nav-active { overflow: hidden; }
 }
 
 .culture-subtitle{
-  color: #373174 ;
+  color: #373174;
+  margin-bottom: 15px;
 }
 
 .culture-text {
   text-align: justify;
+  margin: 20px;
 }
 
 .vision {
@@ -757,6 +759,10 @@ body.nav-active { overflow: hidden; }
     /**
    *ORGANIZATIONAL CULTURE
    */
+
+  .culture-text {
+    margin: auto;
+  }
 
   .mission {
     flex-direction: row-reverse;
