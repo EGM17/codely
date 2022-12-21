@@ -590,6 +590,10 @@ body.nav-active { overflow: hidden; }
   #TEAM 
 \*-----------------------------------*/
 
+.team {
+  margin-bottom: 50px;
+}
+
 .main-team {
   display: flex;
   flex-direction: column;
