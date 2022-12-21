@@ -630,6 +630,8 @@ body.nav-active { overflow: hidden; }
   align-items: center;
   width: auto;
   height: 300px;
+  padding-left: 20px;
+  padding-right: 20px;
   border-radius: 10px 10px 10px 10px;
   background: rgb(55,43,112);
   background: radial-gradient(circle, rgba(55,43,112,1) 0%, rgba(14,173,105,1) 100%);
