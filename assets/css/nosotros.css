@@ -590,7 +590,14 @@ body.nav-active { overflow: hidden; }
   #TEAM SLIDER
 \*-----------------------------------*/
 
-
+.grid-team {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.content-team {
+  width: 300;
+  height: auto;
+}
 
 
 
