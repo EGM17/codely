@@ -603,8 +603,12 @@ body.nav-active { overflow: hidden; }
   color: var(--white);
 }
 
+.h2-team {
+ font-size: var(--fs-2);
+}
 .subtitle-team {
   text-align: center;
+  font-size: var(--fs-4);
 }
 
 .grid-team {
