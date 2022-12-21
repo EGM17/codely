@@ -610,7 +610,6 @@ body.nav-active { overflow: hidden; }
   text-align: center;
   font-size: var(--fs-4);
   margin: 20px;
-  text-align: justify;
 }
 
 .grid-team {
