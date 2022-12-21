@@ -854,6 +854,9 @@ body.nav-active { overflow: hidden; }
     justify-content: center;
     align-items: flex-start;
 }
+  .grid-team {
+    grid-template-columns: 4fr;
+}
 
 }
 
