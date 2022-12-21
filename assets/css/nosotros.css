@@ -856,6 +856,9 @@ body.nav-active { overflow: hidden; }
 }
   .grid-team {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 50px;
+    padding-right: 50px;
+    gap: 10px;
 }
 
 }
