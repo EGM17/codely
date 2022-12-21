@@ -624,7 +624,7 @@ body.nav-active { overflow: hidden; }
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 250px;
+  width: auto;
   height: 300px;
   border-radius: 10px 10px 10px 10px;
   background: rgb(55,43,112);
