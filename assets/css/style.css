@@ -500,7 +500,8 @@ body.nav-active { overflow: hidden; }
 .service-card .card-icon {
   width: 60px;
   height: 60px;
-  background-color: var(--violet-blue-crayola);
+  background: rgb(14,173,105);
+  background: radial-gradient(circle, rgba(14,173,105,1) 0%, rgba(59,46,116,1) 100%);
   display: grid;
   place-items: center;
   color: var(--white);
