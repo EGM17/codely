@@ -884,7 +884,7 @@ body.nav-active { overflow: hidden; }
 }
 
   .ocultar-texto {
-    display: none;
+    display: block;
   }
 
 }
