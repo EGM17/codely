@@ -594,6 +594,7 @@ body.nav-active { overflow: hidden; }
   display: grid;
   grid-template-columns: 1fr;
   justify-items: center;
+  gap: 10px;
 }
 
 .content-team {
@@ -605,6 +606,7 @@ body.nav-active { overflow: hidden; }
 .title-team {
   display: flex;
   justify-content: center;
+  background-color: var(--white);
 }
 
 
