@@ -593,10 +593,17 @@ body.nav-active { overflow: hidden; }
 .grid-team {
   display: grid;
   grid-template-columns: 1fr;
+  justify-items: center;
 }
+
 .content-team {
-  width: 300;
+  width: 300px;
   height: auto;
+}
+
+.title-team {
+  display: flex;
+  justify-content: center;
 }
 
 
