@@ -625,7 +625,7 @@ body.nav-active { overflow: hidden; }
   width: 300px;
   height: 400px;
   border-radius: 10px 10px 10px 10px;
-  background-image: url(/assets/images/team-1.svg);
+  background-color: var(--white);
 
 }
 
