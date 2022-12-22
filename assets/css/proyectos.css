@@ -481,12 +481,12 @@ body.nav-active { overflow: hidden; }
   #ABOUT
 \*-----------------------------------*/
 
-.about .container {
+.projects .container {
   display: grid;
   gap: 50px;
 }
 
-.about .section-title {
+.projects .section-title {
   margin-block-end: 35px;
 }
 
@@ -727,7 +727,7 @@ body.nav-active { overflow: hidden; }
    * ABOUT
    */
 
-   .about .container {
+   .projects .container {
     grid-template-columns: 1fr 0.7fr;
     align-items: center;
   }
