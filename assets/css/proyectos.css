@@ -183,12 +183,6 @@ body.nav-active { overflow: hidden; }
 
 .section { padding-block: var(--section-padding); }
 
-.has-bg-image {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-}
-
 .h1,
 .h2,
 .h3,
