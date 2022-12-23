@@ -482,8 +482,8 @@ body.nav-active { overflow: hidden; }
 \*-----------------------------------*/
 
 .projects .container {
-  display: grid;
-  gap: 50px;
+  display: flex;
+  flex-direction: column;
 }
 section.projects {
   margin-top: 120px;
