@@ -489,6 +489,10 @@ section.projects {
   margin-top: 120px;
 }
 
+.projects-content-inverter {
+  order: 2;
+}
+
 .projects .section-title {
   margin-block-end: 35px;
 }
