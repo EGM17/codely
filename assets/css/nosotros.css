@@ -846,6 +846,11 @@ body.nav-active { overflow: hidden; }
     margin: auto;
   }
 
+  .values-img-element, .vision-img-element, .mission-img-element {
+    width: 350px;
+    height: auto;
+  }
+
   .mission {
     flex-direction: row-reverse;
     justify-content: center;
