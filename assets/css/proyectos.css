@@ -483,7 +483,8 @@ body.nav-active { overflow: hidden; }
 
 .projects {
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr 1fr
+;
   gap: 50px;
 }
 
