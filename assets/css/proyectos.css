@@ -493,6 +493,13 @@ section.projects {
   order: 2;
 }
 
+.section-subtitle-projects {
+  text-align: center;
+}
+.section-title-projects {
+  text-align: center;
+}
+
 .projects .section-title {
   margin-block-end: 35px;
 }
