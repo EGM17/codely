@@ -485,6 +485,9 @@ body.nav-active { overflow: hidden; }
   display: grid;
   gap: 50px;
 }
+section.projects {
+  margin-top: 150px;
+}
 
 .projects .section-title {
   margin-block-end: 35px;
