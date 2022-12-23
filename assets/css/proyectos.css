@@ -486,6 +486,11 @@ body.nav-active { overflow: hidden; }
   gap: 50px;
 }
 
+.container-projects {
+  display: flex;
+  flex-direction: column;
+}
+
 .projects .section-title {
   margin-block-end: 35px;
 }
