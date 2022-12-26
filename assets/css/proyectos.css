@@ -756,6 +756,10 @@ section.projects {
     order: 0;
   }
 
+  figure.projects-banner {
+    padding: 25px;
+}
+
 }
 
 
