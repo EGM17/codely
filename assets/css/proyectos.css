@@ -486,7 +486,8 @@ body.nav-active { overflow: hidden; }
   flex-direction: column;
 }
 section.projects {
-  margin-top: 120px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .section-subtitle-projects {
@@ -753,11 +754,11 @@ section.projects {
   }
 
   .projects-content-inverter {
-    order: 0;
+    order: 2;
   }
 
   figure.projects-banner {
-    padding: 25px;
+    padding: 50px;
 }
 
 }
