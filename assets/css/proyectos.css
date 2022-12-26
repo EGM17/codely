@@ -746,6 +746,20 @@ section.projects {
     align-items: center;
   }
 
+
+  /*-----------------------------------*\
+  #PROJECTS
+\*-----------------------------------*/
+
+  .projects .container {
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+  }
+
+  .projects-content-inverter {
+    order: 1;
+  }
+
 }
 
 
