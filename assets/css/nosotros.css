@@ -442,7 +442,6 @@ body.nav-active { overflow: hidden; }
 }
 
 .img-hero {
-  width: 300px;
   height: auto;
   margin-top: 30px;
 }
@@ -796,8 +795,10 @@ img.element-img-hero {
     --fs-5: 2rem;
   }
 
-  .img-hero {
-    display: block;
+  img.element-img-hero {
+    display: flex;
+    justify-content: center;
+    width: 400px !important;
   }
 
 
@@ -930,8 +931,8 @@ img.element-img-hero {
    */
 
    .container-hero {
-    padding-top: 130px;
-    padding-bottom: 50px;
+    padding-top: 180px;
+    padding-bottom: 160px;
     text-align: left;
     grid-template-columns: 1fr 0.8fr;
     align-items: center;
