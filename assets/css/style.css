@@ -462,7 +462,7 @@ body.nav-active {
 .container-hero {
   display: grid;
   grid-template-columns: 1fr;
-  padding-top: 150px;
+  padding-top: 120px;
   padding-left: 20px;
   padding-right: 20px;
   text-align: center;
