@@ -505,14 +505,14 @@ img.element-img-hero {
 \*-----------------------------------*/
 
 .customer-logos {
-  margin-top: -20px;
-  margin-bottom: 20px;
+  margin-top: 50px;
+  margin-left: 50px;
 }
 .slick-slide{
   margin: 0 20px;
 }
 .slick-slide img{
-  width: 30%;
+  width: 50%;
 }
 .slick-slider{
   position: relative;
