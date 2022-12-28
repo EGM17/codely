@@ -431,6 +431,10 @@ body.nav-active { overflow: hidden; }
   color: var(--white);
 }
 
+.movil-br {
+  display: none;
+}
+
 .hero-text {
   font-size: var(--fs-5);
   color: var(--white);
@@ -937,6 +941,10 @@ img.element-img-hero {
 
   .hero-content {
     max-width: unset;
+  }
+
+  .movil-br {
+    display: block;
   }
 
   .btn-wrapper {
