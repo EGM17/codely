@@ -486,6 +486,7 @@ body.nav-active {
   width: 300px;
   height: auto;
   margin-top: 30px;
+  display: none;
 }
 
 img.element-img-hero {
@@ -957,6 +958,10 @@ img.element-img-hero {
 
   .hero-text {
     --fs-5: 2rem;
+  }
+
+  .img-hero {
+    display: block;
   }
 
 
