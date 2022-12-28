@@ -506,7 +506,8 @@ img.element-img-hero {
 
 .customer-logos {
   margin-top: 50px;
-  margin-left: 50px;
+  margin-left: 45px;
+  margin-bottom: 30px;
 }
 .slick-slide{
   margin: 0 20px;
@@ -1132,7 +1133,14 @@ img.element-img-hero {
   .btn-wrapper {
     justify-content: flex-start;
   }
-
+  .customer-logos {
+  margin-top: -20px;
+  margin-left: 110px;
+  margin-bottom: 50px;
+  }
+  .slick-slide img{
+    width: 30%;
+  }
 
 
   /**
