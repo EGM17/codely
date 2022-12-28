@@ -484,7 +484,7 @@ body.nav-active {
 .img-hero {
   width: 300px;
   height: auto;
-  margin: 20px;
+  margin-top: 50px;
 }
 
 img.element-img-hero {
