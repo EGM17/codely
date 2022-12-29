@@ -496,6 +496,23 @@ img.element-img-hero {
   border-radius: 15px;
 }
 
+.btn-secondary:is(:hover, :focus-visible) {
+  background-color: var(--violet-blue-crayola);
+  color: var(--white) !important;
+}
+
+.section-contact .btn {
+  color: var(--violet-blue-crayola);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-700);
+  border: 2px solid var(--violet-blue-crayola);
+  max-width: max-content;
+  padding: 12px 28px;
+  border-radius: var(--radius-pill);
+  transition: var(--transition-1);
+  will-change: transform;
+}
+
 .btn-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -503,6 +520,8 @@ img.element-img-hero {
   align-items: center;
   gap: 12px;
 }
+
+
 
 
 
