@@ -449,6 +449,30 @@ body.nav-active {
 }
 
 
+/*-----------------------------------*\
+  #DATA REVEAL FOR IMAGES, TEXT AND TITLES
+\*-----------------------------------*/
+
+
+[data-reveal] {
+  opacity: 0;
+  transition: 0.75s ease;
+}
+
+[data-reveal="top"] { transform: translateY(-30px); }
+
+[data-reveal="bottom"] { transform: translateY(30px); }
+
+[data-reveal="left"] { transform: translateX(-30px); }
+
+[data-reveal="right"] { transform: translateX(30px); }
+
+[data-reveal].revealed {
+  transform: translate(0);
+  opacity: 1;
+}
+
+
 
 
 /*-----------------------------------*\
@@ -531,14 +555,6 @@ img.element-img-hero {
   background-color: var(--cultured);
 }
 
-.project :is(.section-subtitle, .section-title) {
-  text-align: center;
-}
-
-.project .section-title {
-  margin-block-end: 50px;
-}
-
 .project-card {
   background-color: var(--white);
   border-radius: var(--radius-8);
@@ -575,6 +591,10 @@ img.element-img-hero {
   gap: 4px;
   color: var(--cadet-blue-crayola);
   font-size: var(--fs-8);
+}
+
+.project .img-holder {
+  background: var(--charcoal)
 }
 
 
