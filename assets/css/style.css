@@ -996,6 +996,24 @@ img.element-img-hero {
   }
 
 
+  /**
+   * DATA REVEAL
+   */
+
+  [data-reveal] {
+    opacity: 0;
+    transition: 0.75s ease;
+  }
+  
+  [data-reveal="left"] { transform: translateY(30px); }
+  
+  [data-reveal="right"] { transform: translateY(30px); }
+  [data-reveal].revealed {
+    transform: translate(0);
+    opacity: 1;
+  }
+
+
 
   /**
    * HEADER
