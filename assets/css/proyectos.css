@@ -275,6 +275,16 @@ body.nav-active { overflow: hidden; }
   opacity: 1;
 }
 
+/*------------------------------------*\
+Ocultar error de espacio en blanco al
+cargar las animaciones
+\*------------------------------------*/
+html,
+body {
+width:100%;
+overflow-x: hidden;
+}
+
 
 
 

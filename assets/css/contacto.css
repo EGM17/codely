@@ -303,6 +303,19 @@ body.nav-active {
 
 
 
+/*------------------------------------*\
+Ocultar error de espacio en blanco al
+cargar las animaciones
+\*------------------------------------*/
+html,
+body {
+width:100%;
+overflow-x: hidden;
+}
+
+
+
+
 
 /*-----------------------------------*\
   #HEADER
