@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Codely</title>
+  <meta name="title" content="Codely">
+  <meta name="description" content="Agencia de desarrollo de software en México">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/contacto.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo-light-codely.svg" width="" height="24" alt="Codely inicio" class="logo-light">
+
+        <img src="./assets/images/logo-dark-codely.svg" width="" height="24" alt="Codely inicio" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="#" class="logo" id="logo-movil-light">
+            <img src="./assets/images/logo-light-codely.svg" width="" height="24" alt="Codely inicio">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Inicio</a>
+          </li>
+
+          <li>
+            <a href="nosotros.html" class="navbar-link">Nosotros</a>
+          </li>
+
+          <li>
+            <a href="proyectos.html" class="navbar-link">Proyectos</a>
+          </li>
+
+          <li>
+            <a href="soluciones.html" class="navbar-link">Soluciones</a>
+          </li>
+
+          <li>
+            <a href="contacto.html" class="navbar-link">Contacto</a>
+          </li>
+
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:edgar.g@myshipper.com.mx" class="contact-link">soporte@codely.com</a>
+
+          <a href="tel:2215973529" class="contact-link">+52 221 5973529</a>
+        </div>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </nav>
+
+      <a href="https://calendly.com/myshipper/desarrollo-de-software-consulta" class="btn btn-primary">Agendar
+        videollamada</a>
+
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section-hero" aria-label="proyectos">
+        <div class="container-hero">
+
+          <div class="hero-content">
+
+            <h1 class="h2 hero-title">Soluciones y servicios que ofrecemos</h1>
+
+            <p class="hero-text">
+              Conoce nuestros servicios y soluciones para solucionar tus problemas o cubrir tus necesidades
+            </p>
+
+            <div class="btn-wrapper">
+
+              <a href="#" class="btn btn-primary">Soluciones</a>
+
+              <a href="#" class="btn btn-outline">Cotizador</a>
+
+            </div>
+
+          </div>
+          <div class="img-hero">
+            <img src="./assets/images/soluciones-img-hero.svg" width="300" height="250" alt="" class="element-img-hero">
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+        - #PROJECT
+      -->
+
+      <section class="section project" aria-labelledby="project-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="project-label">Casos de estudio</p>
+
+          <h2 class="h2 section-title">
+            Da un vistazo a nuestros últimos proyectos y mira como podemos ayudarte
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/medihat-proyecto.webp" width="560" height="350" alt="Medihat"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Medihat</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Imagina lo dificil que debe ser tener ventas a gran escala, recibir pagos y solicitar materias
+                    primas de forma manual...
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="meta-text"> Ver más </time>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/chula-proyecto.webp" width="560" height="350" alt="Shop Chula"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Shop Chula</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Chula es una empresa que requiere de un panel con notificaciones y herramientas avanzadas para sus
+                    productos perecederos...
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="eye-outline"></ion-icon>
+                      <a href="nosotros.html">
+                        <time class="meta-text">Ver más</time>
+                      </a>
+
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+            </li>
+
+            <li>
+              <div class="project-card">
+
+                <figure class="card-banner img-holder" style="--width: 560; --height: 350;">
+                  <img src="./assets/images/lab-proyecto.webp" width="560" height="350" alt="Logística Abordo"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Logística Abordo</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Desarrollamos un robusto sistema que permite a la empresa realizar y administrar todas sus
+                    operaciones logísticas...
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <ion-icon name="eye-outline" aria-hidden="true"></ion-icon>
+                      <a href="nosotros.html">
+                        <time class="meta-text">Ver más</time>
+                      </a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" aria-label="call to action">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            Unete a los emprendedores que ya potencian su empresa con nuestra tecnología
+          </h2>
+
+          <a href="https://calendly.com/myshipper/desarrollo-de-software-consulta" class="btn btn-primary">Agendar
+            videollamada</a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container grid-list">
+
+      <div class="footer-brand">
+
+        <a href="#" class="logo" id="logo-light-footer">
+          <img src="./assets/images/logo-light-codely.svg" width="" height="24" alt="Codely inicio">
+        </a>
+
+        <p class="footer-text">
+          &copy; 2022 Edgar Morales. <br> All rights reserved.
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-dribbble"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Contacto</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            Santa Ana 28, San Andrés Cholula, Puebla.
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:edgar.g@myshipper.com.mx" class="footer-link">contacto@codely.com</a>
+        </li>
+
+        <li>
+          <a href="tel:2215973529" class="footer-link">+52 221 597 3529</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Enlaces importantes</p>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Nosotros</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Historia</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Proyectos</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Blog</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Política de privacidad</a>
+        </li>
+
+      </ul>
+
+      <div class="footer-list">
+
+        <p class="h4 footer-list-title">Nuestro newsletter</p>
+
+        <p class="footer-text">
+          Suscríbete a nuestro newsletter para recibir ofertas y consejos
+        </p>
+
+        <form action="" class="input-wrapper">
+          <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
+
+          <button type="submit" class="submit-btn">Únete</button>
+        </form>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <script src="/assets/js/finisher-header.es5.min.js" type="text/javascript"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
