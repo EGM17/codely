@@ -600,7 +600,7 @@ img.element-img-hero {
 }
 
 .service-card {
-  padding: 40px;
+  padding: 20px;
   box-shadow: var(--shadow-2);
   border-radius: var(--radius-6);
 }
