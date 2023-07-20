@@ -4,7 +4,7 @@ Codely
 
 #---------- HEADER ----------#
 
-alt = Adex home
+alt = Codely home
 
 aria-label = close menu
 <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
